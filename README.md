@@ -4,7 +4,10 @@
 
 <img width="963" height="81" alt="image" src="https://github.com/user-attachments/assets/5d75d279-ba8b-4dfe-921a-aadaa08e88fe" />
 
-my nix for friends (formerly: benix)
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90d98286-2bfa-49c9-8315-3e9c698d303e" />
+
 
 ### Installation:
 1. install nixOS
