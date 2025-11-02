@@ -6,6 +6,21 @@
 
 my nix for friends (formerly: benix)
 
+### Installation:
+1. install nixOS
+2. run the following commands in your terminal
+```bash
+cd ~
+git clone https://github.com/rezadoz/stefanOS.git temp
+mv temp/.git .
+mv temp/* .
+mv temp/.* . 2>/dev/null
+rm -rf temp
+sudo nixos-rebuild switch --flake ~/nix-config#hyperhyrax
+```
+
+### Structure:
+
 ```
 /home/stefan/
 ├──.p10k.zsh
@@ -16,6 +31,8 @@ my nix for friends (formerly: benix)
    └──users/
        └──stefan.nix
 ```
+
+### Included Software:
 
 ```nix
     #-- USER PACKAGES --#
